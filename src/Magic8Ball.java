@@ -6,7 +6,8 @@ public class Magic8Ball {
 
 	// 1. Make a main method that includes all the steps below….
 	public static void main(String[] args) {
-	// 2. Make a variable that will hold a random number and put a random number into this variable using "new Random().nextInt(4)"
+	for (int i = 0; i < 99999; i++) {
+		// 2. Make a variable that will hold a random number and put a random number into this variable using "new Random().nextInt(4)"Ω (int i = 0; i < args.length; i++) {
 		int random = new Random().nextInt(4);
 	// 3. Print out this variable
 		System.out.println(random);
@@ -31,6 +32,7 @@ public class Magic8Ball {
 		if (random == 3) {
 	// -- write your own answer
 			JOptionPane.showMessageDialog(null, "SHAKE HARDER!!!");
+		}
 		}	
 	}
 }
