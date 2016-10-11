@@ -13,8 +13,8 @@ import java.awt.Color;
 public class FlamingNinjaStar {
   public static void main(String[] args) {
 
-    int baseSize = 300;    //the size of the black part of the star
-    int flameSize = 300;    //the length of the flaming arms
+    int baseSize = 534;    //the size of the black part of the star
+    int flameSize = 21;    //the length of the flaming arms
 
     // 1. Make a new robot, and set it's pen down.
     Robot r = new Robot();
