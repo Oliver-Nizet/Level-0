@@ -9,6 +9,6 @@ public class PlayingWithIcons {
 	}
 
 	static ImageIcon getIcon() {
-		return new ImageIcon("image/images.jpg");
+		return new ImageIcon("image/TheLeague.jpg");
 	}
 }
