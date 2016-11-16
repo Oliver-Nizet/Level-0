@@ -12,7 +12,7 @@ public class HiLoGuesser {
 					new String[] { "You Guessed it!", "Lower", "Higher" }, null);
 			if (userInput == 0) {
 				JOptionPane.showMessageDialog(null, "HAHA! I guessed your number in " + i + " tries!");
-				numOfGuesses -= 999999999;
+				break;
 			}
 			if (userInput == 2) {
 				lowestGuess = average;
