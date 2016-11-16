@@ -10,7 +10,6 @@ public class HiLoGuesser {
 			int average = ((highestGuess + lowestGuess) / 2);
 			int userInput = JOptionPane.showOptionDialog(null, "Is " + average + " your number?", "ComputerGuess", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] { "You Guessed it!", "Lower", "Higher" }, null);
-			System.out.println(userInput);
 			if (userInput == 0) {
 				JOptionPane.showMessageDialog(null, "HAHA! I guessed your number in " + i + " tries!");
 				numOfGuesses -= 999999999;
