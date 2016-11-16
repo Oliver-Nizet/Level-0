@@ -72,7 +72,7 @@ public class HolidayCard extends MouseAdapter {
 	/* 3. Personalize your card. */
 	void drawGreetingAndSing() {
 		// Download a Christmas sound (wav, midi or aiff) and use the playMusic() method to play it
-		playMusic();
+
 		// Use the writeGreeting() method to add a festive message
 
 	}
