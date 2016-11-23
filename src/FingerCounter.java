@@ -42,6 +42,12 @@ public class FingerCounter {
 			}
 			JOptionPane.showMessageDialog(null, bum1asInt + " is " + i + " times.");
 		}
+		JOptionPane.showMessageDialog(null, "Now for the addition.");
+		for (int i = 0; i < bum3asInt; i++) {
+			JOptionPane.showMessageDialog(null, bum1asInt + " + 1 = " + (bum1asInt + 1));
+			bum1asInt++;
+		}
+		JOptionPane.showMessageDialog(null, bum1asInt2 + " x " + bum2asInt + " + " + bum3asInt + " = " + bum1asInt + "!");
 	}
 
 }
