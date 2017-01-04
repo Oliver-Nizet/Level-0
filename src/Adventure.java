@@ -5,7 +5,7 @@ public class Adventure {
 		int x = 0;
 		int y = 0;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Welcome to your Adventure. Give me commands to go north, south, east, or west.\nYour cordinates are: 0,0");
+		System.out.println("Welcome to your Adventure. Give me commands to go north, south, east, or west.\nYour coordinates are: 0,0");
 		while (true) {
 			String line = scanner.nextLine();
 			if (line.equals("go north")) {
@@ -20,7 +20,12 @@ public class Adventure {
 			if (line.equals("go west")) {
 				x--;
 			}
-			System.out.println("Your cordinates are: " + x + "," + y);
+			System.out.println("Your coordinates are: " + x + "," + y);
+
+			if (line.equals("go north") || line.equals("go south") || line.equals("go east") || line.equals("go west")) {
+				System.out.println("Now you know how to move around. Go to the coordinates are");
+			}
+
 		}
 	}
 }
