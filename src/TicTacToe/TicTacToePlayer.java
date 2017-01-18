@@ -22,7 +22,9 @@ public class TicTacToePlayer {
 		if (ttt.get(2) == ttt.get(5) && ttt.get(2) != ttt.OPEN && ttt.get(8) == ttt.OPEN) {
 			return (8);
 		}
-
+		if (ttt.get(3) == ttt.get(6) && ttt.get(3) != ttt.OPEN && ttt.get(9) == ttt.OPEN) {
+			return (9);
+		}
 		return 0;
 	}
 }
