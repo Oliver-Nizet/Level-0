@@ -1,4 +1,5 @@
-xgxpackage TicTacToe;
+package TicTacToe;
+
 import java.util.Scanner;
 
 public class TicTacToe {
